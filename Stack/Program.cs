@@ -46,7 +46,7 @@ namespace Stack
             Console.WriteLine("\nThe poped elements is: " + top.info);
             top = top.next; // make top point to the next node in squence
         }
-        public void display()
+        public void display() 
         {
             node tmp;
             if (empty())
