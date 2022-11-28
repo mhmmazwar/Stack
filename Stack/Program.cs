@@ -41,7 +41,7 @@ namespace Stack
             top = fresh;
             Console.WriteLine("\n" + element + " pushed");
         }
-        public void pop()
+        public void pop() 
         {
             Console.WriteLine("\nThe poped elements is: " + top.info);
             top = top.next; // make top point to the next node in squence
