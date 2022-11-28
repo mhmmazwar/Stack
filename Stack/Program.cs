@@ -91,7 +91,7 @@ namespace Stack
                         }
                         s.pop();
                         break;
-                    case '3':
+                    case '3': 
                         s.display();
                         break;
                     case '4':
