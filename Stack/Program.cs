@@ -78,13 +78,26 @@ namespace Stack
                 char ch = Convert.ToChar(input == "" ? "0" : input);
                 switch (ch)
                 {
-                    case '1': 
-                        Console.Write("\nEnter a number : ");
+                    case '1':
+                        Console.Write("\nEnter a Number :");
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
                     case '2':
-
+                        if (s.empaty()) ;
+                        {
+                            Console.WriteLine("\nStack Empty");
+                            break;
+                        }
+                        s.pop();
+                        break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
                         break;
                 }
             }
