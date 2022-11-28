@@ -32,7 +32,7 @@ namespace Stack
             else
                 return false;
         }
-        public void push(int element)
+        public void push(int element) 
         {
             node fresh;
             fresh = new node(element, null);
