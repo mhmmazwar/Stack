@@ -84,7 +84,7 @@ namespace Stack
                         s.push(num);
                         break;
                     case '2':
-                        if (s.empaty()) ;
+                        if (s.empty())
                         {
                             Console.WriteLine("\nStack Empty");
                             break;
@@ -94,7 +94,7 @@ namespace Stack
                     case '3': 
                         s.display();
                         break;
-                    case '4':
+                    case '4': 
                         return;
                     default:
                         Console.WriteLine("\nInvalid Choice");
